@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo">Priyanka</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <nav id="hamburger-nav">
+      <div class="logo">Priyanka Kashid</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Assets/1.png" alt="Priyanka Kashid profile picture"  width="440" height="590" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Priyanka Kashid</h1>
+
+        <p>A Engineering Student.</p> 
+        <br>
+
+        <!--<p class="section__text__p2">Frontend Developer</p>-->
+
+        <div class="btn-container">
+          <button class="btn btn-color" onclick="window.open('Assets/RESUME.pdf')">
+            Download CV
+          </button>
+        </div>
+       
+      </div>
+    </section>
+
+
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="Assets/education.gif"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+                <p> Pursuing B.E. Artificial Intelligence And Data Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Dedicated and proficient Computer Engineering student with a passion for programming and technology.
+                 Adept in a wide range of programming languages and technologies, including C++, HTML, CSS, MySQL, Python, and PHP.
+                 Eager to contribute technical skills and creative problem-solving abilities
+                  to a dynamic team while
+                  continuing to learn and grow in the field of computer engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+
+    
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img src="Assets/C++.jpeg"alt="Experience icon"class="icon"/>
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="Assets/Python.jpeg" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="Assets/C.jpeg" alt="Experience icon"  class="icon"/>
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              
+             
+            </div>
+        </div>
+
+          <div class="details-container">
+            <h2 class="skills-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="Assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="Assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="Assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+                <video width="500px" height="350px" controls autoplay>
+                    <source src="Assets/Landing Page.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <h2 class="project-title">Landing Page</h2>
+            <p>A design for landing page using various HTML and CSS tags</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/YoganshWagh/E-Commerce-Spam-Review-Detection-Using-ML'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          
+          </div>
+        
+      </div>
+    </section>
+
+    
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="Assets/Mail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:priyanka.kashid10@gmail.com">priyanka.kashid10@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="Assets/LinkedIn.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/priyanka-kashid-b67980263/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Priyanka Kashid. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
